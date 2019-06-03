@@ -90,6 +90,7 @@ public class InsertFragment extends DialogFragment {
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         for(DataSnapshot ds : dataSnapshot.getChildren()) {
                             sugestions.add(ds.getValue(AddedStrings.class).getValue());
+                            adapter.notifyDataSetChanged();
                         }
                     }
 

@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">fatec_ipi_noite_paint</string>
+    <string name="menuitem_save">Save</string>
+    <string name="menuitem_print">Print</string>
+    <string name="message_erase">Erase the drawing?</string>
+    <string name="message_error_saving">There was an error saving the image</string>
+    <string name="message_saved">Your saved painting can be viewed in the Photos app by selecting Device Folders from that app’s menu</string>
+    <string name="message_error_printing">Your device does not support printing</string>
+    <string name="permission_explanation">To save an image, the app requires permission to write to external storage</string>
+    <string name="title_color_dialog">Choose  Color</string>
+    <string name="title_line_width_dialog">Choose Line Width</string>
+    <string name="button_erase">Erase Image</string>
+    <string name="button_set_color">Set Color</string>
+    <string name="button_set_line_width">Set Line Width</string>
+    <string name="line_imageview_description">This displays the line thickness</string>
+    <string name="label_alpha">Alpha</string>
+    <string name="label_red">Red</string>
+    <string name="label_green">Green</string>
+    <string name="label_blue">Blue</string>
+    <string name="menuitem_color">Color</string>
+    <string name="menuitem_delete">Erase Drawing</string>
+    <string name="menuitem_line_width">Line Width</string>
+    <string name="missing_intersection">Some intersection is missing, please draw again</string>
+    <string name="menuitem_auto_draw">Auto Draw</string>
+    <string name="sugestions">Sugestions</string>
+    <string name="insert">Insert %s</string>
+    <string name="confirm">Confirm</string>
+    <string name="add">Add</string>
+    <string name="love">what you love!</string>
+    <string name="good">what you are good at!</string>
+    <string name="need">what the world needs!</string>
+    <string name="paid">what you can be paid for!</string>
+    <string name="passion">what is your passion!</string>
+    <string name="mission">what is your mission!</string>
+    <string name="profession">what is your profession!</string>
+    <string name="vocation">what is your vocation!</string>
+    <string name="ikigai">your Ikigai!</string>
+</resources>
+

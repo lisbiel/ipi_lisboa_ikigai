@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="160pt"
+    android:layout_height="160pt"
+    android:orientation="vertical">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/addedGrid"
+        android:numColumns="2"
+        android:scrollbars="vertical">
+    </GridView>
+    <EditText
+        android:id="@+id/insertTex"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        />
+
+    <Button
+        android:id="@+id/addButton"
+        android:layout_width="75dp"
+        android:layout_height="35dp"
+        android:layout_gravity="end"
+        android:text="@string/add"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:id="@+id/sugeLabel"
+        android:text="@string/sugestions"/>
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/gridSugestions"
+        android:numColumns="2"
+        android:scrollbars="vertical">
+
+    </GridView>
+
+</LinearLayout>

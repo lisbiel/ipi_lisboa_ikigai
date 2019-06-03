@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "624874386683",
+    "firebase_url": "https://fdo-ikigai.firebaseio.com",
+    "project_id": "fdo-ikigai",
+    "storage_bucket": "fdo-ikigai.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624874386683:android:a1623c9254a83595",
+        "android_client_info": {
+          "package_name": "br.com.lisboa.ikigai"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "624874386683-79pdg4tbsg1j77nqj3l4d98a1s99l8u3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDiOJV1VsCuV_UBnVHFt0tVi5mNz2OXNo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "624874386683-79pdg4tbsg1j77nqj3l4d98a1s99l8u3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -89,6 +89,7 @@ public class InsertFragment extends DialogFragment {
                     @Override
                     public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
                         for(DataSnapshot ds : dataSnapshot.getChildren()) {
+                            if(!sugestions.contains(ds.getValue(AddedStrings.class).getValue()))
                             sugestions.add(ds.getValue(AddedStrings.class).getValue());
                             adapter.notifyDataSetChanged();
                         }
@@ -162,6 +163,7 @@ public class InsertFragment extends DialogFragment {
         if (fragment != null)
 //o diálogo não está mais na tela
             fragment.setDialogOnScreen(false);
+        sugestions.clear();
     }
 
     public void setArray(ArrayList<String> added) {

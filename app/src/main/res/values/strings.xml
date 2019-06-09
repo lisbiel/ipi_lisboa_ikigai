@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">fatec_ipi_noite_paint</string>
+    <string name="app_name">Ikigai for Android</string>
     <string name="menuitem_save">Save</string>
     <string name="menuitem_print">Print</string>
     <string name="message_erase">Erase the drawing?</string>
